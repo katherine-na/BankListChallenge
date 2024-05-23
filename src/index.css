@@ -1,13 +1,42 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  text-align: center;
+}
+
+.bank-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bank-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: left;
+}
+
+.bank-card img {
+  max-width: 100%;
+  width: 100%;
+  height: 125px;
+  object-fit: contain;
+}
+
+.bank-card h2 {
+  font-size: 1.5em;
+}
+
+.bank-card p {
+  font-size: 1em;
+}
+
+.bank-card span {
+  font-size: 1em;
+  color: rgb(91, 91, 91);
 }
